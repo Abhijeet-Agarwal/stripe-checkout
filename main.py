@@ -1,4 +1,5 @@
 import stripe
+import uvicorn
 from fastapi import FastAPI
 
 stripe.api_version = '2020-08-27' # Do not modify
